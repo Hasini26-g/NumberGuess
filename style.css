@@ -1,0 +1,54 @@
+.box{
+    text-align:center;
+    border-radius:20px;
+    width:40%;
+    height: 400px;
+    background-color:rgb(255, 214, 240);
+    padding:50px;
+    box-shadow: 4px 4px 20px 4px rgb(167, 165, 165);
+    margin-left:25%;
+    margin-top:6%;
+}
+html, body{
+    min-height:100%;
+    margin:0;
+}
+body {
+    background: linear-gradient(
+        135deg,
+        #a5ddff 0%,
+        #d4f1ff 35%,
+        #f0faff 60%,
+        #ffffff 100%
+    );
+}
+.Secbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#butt{
+    padding: 10px 80px;
+    box-shadow: 4px 0px 6px 0px grey;
+    font-size: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:azure;
+    border-radius: 12px;
+    background-color: rgba(85, 232, 32, 0.622);
+    margin-top: 4%;
+    
+}
+#butt {
+    transition: transform 0.1s;
+}
+
+#butt:active {
+    transform: translateY(4px);
+}
+#inputg{
+    padding:5px 30px;
+    height:40px;
+    font-size:20px;
+    border-radius:15px;
+    margin-top:50px;
+}
