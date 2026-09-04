@@ -52,3 +52,30 @@ body {
     border-radius:15px;
     margin-top:50px;
 }
+@media (max-width: 600px) {
+
+    .box {
+        width: 80%;
+        height: auto;
+        margin: 10% auto;
+        padding: 30px 15px;
+    }
+
+    #butt {
+        padding: 10px 50px;
+        font-size: 24px;
+    }
+
+    #inputg {
+        width: 70%;
+        padding: 5px 15px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+}
